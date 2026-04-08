@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestix - Privacy Policy / Pol&iacute;tica de Privacidad</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #000; color: #e0e0e0; line-height: 1.7; padding: 24px; max-width: 800px; margin: 0 auto; }
+    h1 { color: #fff; font-size: 1.8rem; margin: 24px 0 8px; }
+    h2 { color: #60A5FA; font-size: 1.3rem; margin: 32px 0 12px; border-bottom: 1px solid #333; padding-bottom: 8px; }
+    h3 { color: #ccc; font-size: 1.1rem; margin: 20px 0 8px; }
+    p, li { margin-bottom: 10px; font-size: 0.95rem; }
+    ul { padding-left: 24px; }
+    a { color: #60A5FA; }
+    .lang-toggle { text-align: center; margin: 16px 0 32px; }
+    .lang-toggle a { display: inline-block; padding: 8px 20px; border: 1px solid #60A5FA; border-radius: 8px; text-decoration: none; margin: 0 8px; }
+    .lang-toggle a.active { background: #60A5FA; color: #000; }
+    .section { margin-bottom: 16px; }
+    .warning { background: #331111; border: 1px solid #663333; border-radius: 8px; padding: 16px; margin: 16px 0; }
+    .warning strong { color: #FF6B6B; }
+    .effective { color: #888; font-style: italic; margin-top: 32px; }
+    #en { display: none; }
+  </style>
+  <script>
+    function showLang(lang) {
+      document.getElementById('es').style.display = lang === 'es' ? 'block' : 'none';
+      document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+      document.querySelectorAll('.lang-toggle a').forEach(a => a.classList.remove('active'));
+      document.querySelector('.lang-toggle a[onclick*="'+lang+'"]').classList.add('active');
+    }
+  </script>
+</head>
+<body>
+
+<div class="lang-toggle">
+  <a href="#" onclick="showLang('es'); return false;" class="active">Espa&ntilde;ol</a>
+  <a href="#" onclick="showLang('en'); return false;">English</a>
+</div>
+
+<!-- ==================== SPANISH ==================== -->
+<div id="es">
+
+<h1>Pol&iacute;tica de Privacidad de Gestix</h1>
+<p>Fecha de vigencia: 24 de febrero de 2026</p>
+
+<h2>1. Informaci&oacute;n General</h2>
+<p>Gestix ("la App") es un juego de fiesta de m&iacute;mica y adivinanzas desarrollado para entretenimiento. Esta pol&iacute;tica describe qu&eacute; informaci&oacute;n recopilamos, c&oacute;mo la usamos y sus derechos.</p>
+
+<h2>2. Datos que Recopilamos</h2>
+<h3>2.1 Datos proporcionados por el usuario</h3>
+<ul>
+  <li><strong>Nombres de jugadores:</strong> Se almacenan localmente en el dispositivo durante la partida. NO se env&iacute;an a ning&uacute;n servidor.</li>
+  <li><strong>Palabras personalizadas ("Mi Lista"):</strong> Se almacenan localmente en el dispositivo. NO se env&iacute;an a ning&uacute;n servidor.</li>
+</ul>
+
+<h3>2.2 Datos recopilados autom&aacute;ticamente</h3>
+<ul>
+  <li><strong>Identificador de dispositivo an&oacute;nimo:</strong> Un UUID generado aleatoriamente, usado &uacute;nicamente para validar compras in-app. No est&aacute; vinculado a su identidad personal.</li>
+  <li><strong>Datos de publicidad:</strong> A trav&eacute;s de Google AdMob (ver secci&oacute;n 4).</li>
+</ul>
+
+<h3>2.3 Datos que NO recopilamos</h3>
+<ul>
+  <li>No recopilamos nombre real, correo electr&oacute;nico, n&uacute;mero de tel&eacute;fono ni ubicaci&oacute;n.</li>
+  <li>No creamos perfiles de usuario.</li>
+  <li>No rastreamos actividad entre aplicaciones.</li>
+  <li>No vendemos datos personales a terceros.</li>
+</ul>
+
+<h2>3. Compras In-App</h2>
+<p>La versi&oacute;n PRO se procesa a trav&eacute;s de Google Play Store o Apple App Store. Los pagos son gestionados &iacute;ntegramente por estas plataformas. Nosotros validamos el recibo de compra mediante un servidor seguro (Firebase Cloud Functions) para confirmar la legitimidad de la transacci&oacute;n. No tenemos acceso a informaci&oacute;n de tarjetas de cr&eacute;dito ni datos bancarios.</p>
+
+<h2>4. Publicidad</h2>
+<p>La versi&oacute;n gratuita muestra anuncios a trav&eacute;s de <strong>Google AdMob</strong>. AdMob puede recopilar:</p>
+<ul>
+  <li>Identificadores de publicidad del dispositivo</li>
+  <li>Datos de interacci&oacute;n con anuncios</li>
+  <li>Informaci&oacute;n t&eacute;cnica del dispositivo</li>
+</ul>
+<p>Solicitamos anuncios no personalizados por defecto. Puede consultar la pol&iacute;tica de privacidad de Google en: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p>Los usuarios PRO no ven publicidad y sus datos no se comparten con redes publicitarias.</p>
+
+<h2>5. Verificaci&oacute;n Biom&eacute;trica</h2>
+<p>Para acceder a la categor&iacute;a "Adultos", se requiere verificaci&oacute;n biom&eacute;trica (Face ID, huella dactilar o PIN del dispositivo). Esta verificaci&oacute;n se procesa &iacute;ntegramente en el dispositivo por el sistema operativo. <strong>Gestix no tiene acceso, no almacena ni transmite datos biom&eacute;tricos.</strong></p>
+
+<h2>6. Contenido para Adultos - Descargo de Responsabilidad</h2>
+<div class="warning">
+  <p><strong>IMPORTANTE:</strong></p>
+  <ul>
+    <li>La categor&iacute;a "Adultos" (18+) contiene humor con contenido sexual impl&iacute;cito destinado exclusivamente a personas mayores de edad.</li>
+    <li>Esta categor&iacute;a est&aacute; protegida por <strong>verificaci&oacute;n biom&eacute;trica obligatoria</strong> y <strong>detecci&oacute;n de controles parentales</strong> del dispositivo.</li>
+    <li>Si el dispositivo tiene controles parentales activos (Family Link, Screen Time, etc.), la categor&iacute;a de adultos queda <strong>autom&aacute;ticamente bloqueada</strong>.</li>
+    <li>Los padres o tutores son responsables de supervisar el uso de esta aplicaci&oacute;n por parte de menores.</li>
+    <li>Gestix no se hace responsable del uso indebido de la aplicaci&oacute;n por menores que logren eludir las protecciones del dispositivo.</li>
+    <li>Al acceder a la categor&iacute;a de adultos, el usuario confirma ser mayor de 18 a&ntilde;os.</li>
+  </ul>
+</div>
+
+<h2>7. Controles Parentales</h2>
+<p>Gestix implementa las siguientes protecciones para menores:</p>
+<ul>
+  <li><strong>Detecci&oacute;n autom&aacute;tica:</strong> La app detecta si el dispositivo tiene controles parentales activos (Google Family Link en Android, Screen Time en iOS).</li>
+  <li><strong>Bloqueo autom&aacute;tico:</strong> Cuando se detectan controles parentales, la categor&iacute;a "Adultos" se oculta completamente.</li>
+  <li><strong>Verificaci&oacute;n biom&eacute;trica:</strong> A&uacute;n sin controles parentales, se requiere autenticaci&oacute;n biom&eacute;trica para acceder al contenido adulto.</li>
+  <li><strong>Sin persistencia:</strong> La verificaci&oacute;n de edad no se guarda entre sesiones. Se requiere cada vez que se inicia la app.</li>
+</ul>
+
+<h2>8. Almacenamiento de Datos</h2>
+<p>Todos los datos del juego (nombres, puntuaciones, preferencias, palabras personalizadas) se almacenan <strong>&uacute;nicamente en el dispositivo</strong> del usuario. Al desinstalar la aplicaci&oacute;n, todos los datos se eliminan permanentemente.</p>
+
+<h2>9. Derechos del Usuario</h2>
+<p>Usted tiene derecho a:</p>
+<ul>
+  <li>Eliminar todos sus datos desinstalando la aplicaci&oacute;n</li>
+  <li>Desactivar los anuncios personalizados desde la configuraci&oacute;n de su dispositivo</li>
+  <li>Adquirir la versi&oacute;n PRO para eliminar toda publicidad</li>
+</ul>
+
+<h2>10. Seguridad</h2>
+<p>Implementamos medidas de seguridad incluyendo:</p>
+<ul>
+  <li>Validaci&oacute;n server-side de compras in-app</li>
+  <li>Comunicaciones cifradas (HTTPS)</li>
+  <li>No almacenamiento de datos sensibles en servidores</li>
+</ul>
+
+<h2>11. Menores de Edad</h2>
+<p>Gestix es un juego de fiesta apto para todas las edades en sus categor&iacute;as generales. La categor&iacute;a "Adultos" est&aacute; restringida y protegida seg&uacute;n se describe en las secciones 6 y 7. No recopilamos intencionalmente informaci&oacute;n personal de menores de 13 a&ntilde;os conforme a COPPA.</p>
+
+<h2>12. Cambios a esta Pol&iacute;tica</h2>
+<p>Podemos actualizar esta pol&iacute;tica peri&oacute;dicamente. Los cambios se publicar&aacute;n en esta misma p&aacute;gina con la fecha de actualizaci&oacute;n. El uso continuado de la App constituye aceptaci&oacute;n de los cambios.</p>
+
+<h2>13. Contacto</h2>
+<p>Para preguntas sobre privacidad, cont&aacute;ctenos en: <strong>info@gialovapps.com</strong></p>
+<p>Gialova LLC</p>
+
+<p class="effective">&Uacute;ltima actualizaci&oacute;n: 24 de febrero de 2026</p>
+
+</div>
+
+<!-- ==================== ENGLISH ==================== -->
+<div id="en">
+
+<h1>Gestix Privacy Policy</h1>
+<p>Effective date: February 24, 2026</p>
+
+<h2>1. General Information</h2>
+<p>Gestix ("the App") is a charades and guessing party game developed for entertainment purposes. This policy describes what information we collect, how we use it, and your rights.</p>
+
+<h2>2. Data We Collect</h2>
+<h3>2.1 User-provided data</h3>
+<ul>
+  <li><strong>Player names:</strong> Stored locally on the device during gameplay. NOT sent to any server.</li>
+  <li><strong>Custom words ("My List"):</strong> Stored locally on the device. NOT sent to any server.</li>
+</ul>
+
+<h3>2.2 Automatically collected data</h3>
+<ul>
+  <li><strong>Anonymous device identifier:</strong> A randomly generated UUID, used solely to validate in-app purchases. Not linked to your personal identity.</li>
+  <li><strong>Advertising data:</strong> Through Google AdMob (see section 4).</li>
+</ul>
+
+<h3>2.3 Data we do NOT collect</h3>
+<ul>
+  <li>We do not collect real names, email addresses, phone numbers, or location data.</li>
+  <li>We do not create user profiles.</li>
+  <li>We do not track activity across apps.</li>
+  <li>We do not sell personal data to third parties.</li>
+</ul>
+
+<h2>3. In-App Purchases</h2>
+<p>The PRO version is processed through Google Play Store or Apple App Store. Payments are managed entirely by these platforms. We validate purchase receipts through a secure server (Firebase Cloud Functions) to confirm transaction legitimacy. We do not have access to credit card or banking information.</p>
+
+<h2>4. Advertising</h2>
+<p>The free version shows ads through <strong>Google AdMob</strong>. AdMob may collect:</p>
+<ul>
+  <li>Device advertising identifiers</li>
+  <li>Ad interaction data</li>
+  <li>Technical device information</li>
+</ul>
+<p>We request non-personalized ads by default. See Google's privacy policy at: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p>PRO users see no advertising and their data is not shared with ad networks.</p>
+
+<h2>5. Biometric Verification</h2>
+<p>To access the "Adults" category, biometric verification (Face ID, fingerprint, or device PIN) is required. This verification is processed entirely on-device by the operating system. <strong>Gestix does not access, store, or transmit biometric data.</strong></p>
+
+<h2>6. Adult Content - Disclaimer</h2>
+<div class="warning">
+  <p><strong>IMPORTANT:</strong></p>
+  <ul>
+    <li>The "Adults" (18+) category contains humor with implied sexual content intended exclusively for adults.</li>
+    <li>This category is protected by <strong>mandatory biometric verification</strong> and <strong>device parental control detection</strong>.</li>
+    <li>If the device has active parental controls (Family Link, Screen Time, etc.), the adults category is <strong>automatically blocked</strong>.</li>
+    <li>Parents or guardians are responsible for supervising minors' use of this application.</li>
+    <li>Gestix is not responsible for misuse of the application by minors who bypass device protections.</li>
+    <li>By accessing the adults category, the user confirms they are over 18 years of age.</li>
+  </ul>
+</div>
+
+<h2>7. Parental Controls</h2>
+<p>Gestix implements the following protections for minors:</p>
+<ul>
+  <li><strong>Automatic detection:</strong> The app detects if the device has active parental controls (Google Family Link on Android, Screen Time on iOS).</li>
+  <li><strong>Automatic blocking:</strong> When parental controls are detected, the "Adults" category is completely hidden.</li>
+  <li><strong>Biometric verification:</strong> Even without parental controls, biometric authentication is required to access adult content.</li>
+  <li><strong>No persistence:</strong> Age verification is not saved between sessions. It is required each time the app starts.</li>
+</ul>
+
+<h2>8. Data Storage</h2>
+<p>All game data (names, scores, preferences, custom words) is stored <strong>solely on the user's device</strong>. Uninstalling the application permanently deletes all data.</p>
+
+<h2>9. User Rights</h2>
+<p>You have the right to:</p>
+<ul>
+  <li>Delete all your data by uninstalling the application</li>
+  <li>Disable personalized ads from your device settings</li>
+  <li>Purchase the PRO version to remove all advertising</li>
+</ul>
+
+<h2>10. Security</h2>
+<p>We implement security measures including:</p>
+<ul>
+  <li>Server-side validation of in-app purchases</li>
+  <li>Encrypted communications (HTTPS)</li>
+  <li>No storage of sensitive data on servers</li>
+</ul>
+
+<h2>11. Children</h2>
+<p>Gestix is a party game suitable for all ages in its general categories. The "Adults" category is restricted and protected as described in sections 6 and 7. We do not knowingly collect personal information from children under 13 in compliance with COPPA.</p>
+
+<h2>12. Changes to this Policy</h2>
+<p>We may update this policy periodically. Changes will be published on this page with the update date. Continued use of the App constitutes acceptance of changes.</p>
+
+<h2>13. Contact</h2>
+<p>For privacy questions, contact us at: <strong>info@gialovapps.com</strong></p>
+<p>Gialova LLC</p>
+
+<p class="effective">Last updated: February 24, 2026</p>
+
+</div>
+
+</body>
+</html>
