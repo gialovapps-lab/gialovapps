@@ -49,8 +49,8 @@ export default function Home() {
           <Link href="/privacy" className="hover:text-gray-300 transition-colors">
             Privacy Policy
           </Link>
-          <a href="mailto:contact@gialovapps.com" className="hover:text-gray-300 transition-colors">
-            contact@gialovapps.com
+          <a href="mailto:info@gialovapps.com" className="hover:text-gray-300 transition-colors">
+            info@gialovapps.com
           </a>
         </div>
       </footer>

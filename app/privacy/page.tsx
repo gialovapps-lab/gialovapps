@@ -114,10 +114,10 @@ export default function Privacy() {
           <p>
             If you have questions about this Privacy Policy, contact us at:{" "}
             <a
-              href="mailto:contact@gialovapps.com"
+              href="mailto:info@gialovapps.com"
               className="text-cyan-400 hover:text-cyan-300"
             >
-              contact@gialovapps.com
+              info@gialovapps.com
             </a>
           </p>
         </section>
