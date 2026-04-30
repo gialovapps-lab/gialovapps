@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col">

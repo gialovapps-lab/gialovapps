@@ -8,6 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gialovapps.com"),
   title: "Gialova Apps - App & Software Development",
   description:
     "We build motorcycle telemetry tools and mobile games. Quality apps for riders and gamers.",
