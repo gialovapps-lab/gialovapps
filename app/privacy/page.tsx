@@ -17,7 +17,7 @@ export default function Privacy() {
 
       <h1 className="text-3xl font-bold mb-8">Privacy Policy</h1>
       <p className="text-gray-400 mb-6 text-sm">
-        Last updated: April 7, 2026
+        Last updated: July 25, 2026
       </p>
 
       <div className="space-y-6 text-gray-300 leading-relaxed">
@@ -79,7 +79,30 @@ export default function Privacy() {
 
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">
-            5. Data Security
+            5. Advertising
+          </h2>
+          <p>
+            Some of our free apps display ads served through{" "}
+            <strong>Appodeal</strong> (Appodeal Inc.), an ad mediation platform
+            that connects to multiple advertising networks. Appodeal and its
+            partners may collect device advertising identifiers, ad interaction
+            data, and technical device information. On first launch, users in
+            regions covered by GDPR or CCPA are shown a consent dialog to accept
+            or decline personalized advertising; without consent, only
+            non-personalized ads are shown. See{" "}
+            <a
+              href="https://appodeal.com/privacy-policy/"
+              className="text-cyan-400 hover:text-cyan-300"
+            >
+              Appodeal&apos;s privacy policy
+            </a>{" "}
+            for details. Paid/PRO versions of our apps show no advertising.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-white mb-3">
+            6. Data Security
           </h2>
           <p>
             We implement reasonable security measures to protect your
@@ -90,7 +113,7 @@ export default function Privacy() {
 
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">
-            6. Children&apos;s Privacy
+            7. Children&apos;s Privacy
           </h2>
           <p>
             Our apps are not directed to children under 13. We do not knowingly
@@ -100,7 +123,7 @@ export default function Privacy() {
 
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">
-            7. Changes to This Policy
+            8. Changes to This Policy
           </h2>
           <p>
             We may update this Privacy Policy from time to time. Changes will be
@@ -110,7 +133,7 @@ export default function Privacy() {
 
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">
-            8. Contact Us
+            9. Contact Us
           </h2>
           <p>
             If you have questions about this Privacy Policy, contact us at:{" "}
