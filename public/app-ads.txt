@@ -9,6 +9,11 @@ appodeal.com, 265896, DIRECT
 bidmachine.io,1,DIRECT
 
 bidmachine.io,466,DIRECT
+
+#Meta Audience Network
+
+facebook.com, 905421329099283, RESELLER, c3e20eee3f780d68
+
 #Add other networks if applicable
 
 #Resellers
