@@ -52,10 +52,18 @@ export default function Home() {
             </p>
           </a>
           <div className="border border-cyan-900/50 rounded-2xl p-6 bg-[#0d1524] hover:border-cyan-500/50 transition-colors">
-            <div className="text-3xl mb-3">🎮</div>
+            <Image
+              src="/gestix.png"
+              alt="Gestix"
+              width={827}
+              height={414}
+              className="h-10 w-auto mx-auto mb-4"
+            />
             <h2 className="text-xl font-semibold mb-2">Games</h2>
             <p className="text-gray-400 text-sm">
-              Fun and engaging mobile games. More titles coming soon.
+              Gestix is a team charades party game: act out songs, movies and
+              characters without talking. 60 seconds to guess, or the rival
+              team steals the point. On iOS and Android.
             </p>
           </div>
         </div>
