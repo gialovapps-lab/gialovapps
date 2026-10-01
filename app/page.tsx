@@ -28,14 +28,29 @@ export default function Home() {
 
         {/* App cards */}
         <div className="grid gap-6 md:grid-cols-2 max-w-2xl w-full">
-          <div className="border border-cyan-900/50 rounded-2xl p-6 bg-[#0d1524] hover:border-cyan-500/50 transition-colors">
-            <div className="text-3xl mb-3">🏍️</div>
+          <a
+            href="https://www.wayraracing.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block border border-cyan-900/50 rounded-2xl p-6 bg-[#0d1524] hover:border-cyan-500/50 transition-colors"
+          >
+            <Image
+              src="/wayra.png"
+              alt="Wayra Racing"
+              width={756}
+              height={178}
+              className="h-10 w-auto mx-auto mb-4"
+              style={{
+                filter:
+                  "drop-shadow(0 0 8px rgba(0, 212, 255, 0.6)) drop-shadow(0 0 20px rgba(0, 212, 255, 0.3))",
+              }}
+            />
             <h2 className="text-xl font-semibold mb-2">Moto Telemetry</h2>
             <p className="text-gray-400 text-sm">
               Real-time motorcycle telemetry, data logging, and AI-powered
               analysis for track riders.
             </p>
-          </div>
+          </a>
           <div className="border border-cyan-900/50 rounded-2xl p-6 bg-[#0d1524] hover:border-cyan-500/50 transition-colors">
             <div className="text-3xl mb-3">🎮</div>
             <h2 className="text-xl font-semibold mb-2">Games</h2>
