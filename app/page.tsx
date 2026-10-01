@@ -65,6 +65,24 @@ export default function Home() {
               characters without talking. 60 seconds to guess, or the rival
               team steals the point. On iOS and Android.
             </p>
+            <div className="flex justify-center gap-3 mt-4">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.gestix"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium px-4 py-2 rounded-lg border border-cyan-900/50 hover:border-cyan-500/50 hover:text-cyan-300 transition-colors"
+              >
+                Google Play
+              </a>
+              <a
+                href="https://apps.apple.com/app/gestix/id6773967776"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium px-4 py-2 rounded-lg border border-cyan-900/50 hover:border-cyan-500/50 hover:text-cyan-300 transition-colors"
+              >
+                App Store
+              </a>
+            </div>
           </div>
         </div>
       </section>
